@@ -1,0 +1,301 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1800
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "a0e04414-f54e-40c7-a0ff-86fb676df18c",
+            "label": "bg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "bg"
+            },
+            "x": 540,
+            "y": 1800,
+            "originY": 1,
+            "width": 1080,
+            "height": 4000
+        },
+        {
+            "type": "Container",
+            "id": "1d5990eb-2f79-4ee3-9172-6ac4862e2558",
+            "label": "container_particles",
+            "scope": "CLASS",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "990997e0-28eb-4565-84d6-f819dc755553",
+            "label": "container_blocks",
+            "scope": "CLASS",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "bf542f8b-d0e4-4812-8132-b2bde5b8c246",
+            "label": "container_body",
+            "scope": "CLASS",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "4609c420-5cd2-4a21-9a7b-0be02b191141",
+            "label": "container_header",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "82eaddb7-f459-4fa1-8db5-87b80c75c40e",
+                    "label": "container_coin",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f234223f-2317-4f98-aa05-5e7bb1d50b5f",
+                            "label": "coin_base",
+                            "components": [],
+                            "texture": {
+                                "key": "coin-base"
+                            },
+                            "x": 983,
+                            "y": 86
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ff0d7d43-7c30-45a0-a61b-bc1ba4a200b7",
+                            "label": "coinImage",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "coin"
+                            },
+                            "x": 1038,
+                            "y": 86,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "4626a822-6e8c-4d00-8f63-96a2cb25904c",
+                            "label": "txt_coins",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 1006,
+                            "y": 87,
+                            "originX": 1,
+                            "originY": 0.5,
+                            "text": "0",
+                            "align": "right",
+                            "fontFamily": "LilitaOne",
+                            "fontSize": "54px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "91cfcd11-4505-4b97-a18a-353248519869",
+                    "label": "container_score",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "e8ca1eeb-47bc-42ff-b533-07c7ae2cc353",
+                            "label": "fill_base",
+                            "components": [],
+                            "texture": {
+                                "key": "fill-base"
+                            },
+                            "x": 540,
+                            "y": 86
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ab7c25c2-fbaa-4741-9a00-db2fb4ade255",
+                            "label": "txt_score",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 657,
+                            "y": 122,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "Score",
+                            "align": "center",
+                            "fontFamily": "LilitaOne",
+                            "fontSize": "26px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "1bd85a02-1ae9-4aea-afee-85e750a3a59a",
+                            "label": "outerBar",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "outerBar"
+                            },
+                            "x": 535,
+                            "y": 86
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3a220a77-0515-4753-bf68-f1e0ec80853d",
+                            "label": "innerBar",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "innerBar"
+                            },
+                            "x": 361,
+                            "y": 86,
+                            "originX": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3a2ad675-2c97-4518-8246-338b3f57edaa",
+                            "label": "insects_1",
+                            "components": [],
+                            "texture": {
+                                "key": "insects_1"
+                            },
+                            "x": 364,
+                            "y": 86,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6eef028f-60c9-4bf4-84ff-f483418a33ff",
+                            "label": "fill_line",
+                            "components": [],
+                            "texture": {
+                                "key": "fill-line"
+                            },
+                            "x": 471,
+                            "y": 83
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a0fac88a-559a-4cac-825e-4e0c1e1f4f25",
+                            "label": "fill_line_1",
+                            "components": [],
+                            "texture": {
+                                "key": "fill-line"
+                            },
+                            "x": 597,
+                            "y": 83
+                        },
+                        {
+                            "type": "Image",
+                            "id": "95195e48-9b26-42ba-b1b9-4e7b3356698b",
+                            "label": "star",
+                            "components": [],
+                            "texture": {
+                                "key": "star"
+                            },
+                            "x": 471,
+                            "y": 60,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5ab5d6dd-c07f-4eda-8700-aea8db647725",
+                            "label": "star_1",
+                            "components": [],
+                            "texture": {
+                                "key": "star"
+                            },
+                            "x": 597,
+                            "y": 60,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "dbd93bee-98c1-4a7e-92a3-7ad8581c82b6",
+                            "label": "star_2",
+                            "components": [],
+                            "texture": {
+                                "key": "star"
+                            },
+                            "x": 743,
+                            "y": 79,
+                            "scaleX": 1.5,
+                            "scaleY": 1.5
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3c49c9aa-b697-4af9-85ea-a2db8ebb9438",
+                    "label": "container_boss_progress",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "fa5e6296-30d0-4569-896d-adcabd932623",
+                            "label": "bossOuterbar",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "bossOuterbar"
+                            },
+                            "x": 597,
+                            "y": 125
+                        },
+                        {
+                            "type": "Image",
+                            "id": "67942b03-a0d7-4550-9791-c799c2375110",
+                            "label": "bossInnerBar",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "bossinnerBar"
+                            },
+                            "x": 493,
+                            "y": 125,
+                            "originX": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "2e69bbd6-ba07-4a94-a2c1-39f98425e177",
+            "label": "txt_boss",
+            "scope": "CLASS",
+            "components": [],
+            "x": 540,
+            "y": 960,
+            "originX": 0.5,
+            "originY": 0.5,
+            "visible": false,
+            "text": "BOSS APPROCHING",
+            "fontFamily": "LilitaOne",
+            "fontSize": "66px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
